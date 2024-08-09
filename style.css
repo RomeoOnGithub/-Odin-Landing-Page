@@ -1,0 +1,180 @@
+body {
+    display: flex;
+    flex-direction:column;
+}
+
+.section1, .section2, .section3, .section4 {
+    padding: 0 300px; /*gap between left+right edges and content*/
+}
+
+.section1 { 
+    background-color:#1f2937;
+}
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8%;
+    }
+
+    .logo {
+        font-size: 24px;
+        color: #F9FAF8;
+        font-weight:400;
+        flex: 1;
+    }
+
+    ul, .subtext {
+        font-size: 18px;
+        color: #E5E7EB;
+        display: flex;
+        gap: 23px;
+    }
+
+    .body1 {
+        display: flex;
+        gap: 35px ;
+        margin-bottom: 5%;
+    }
+        .content-body1 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .title, .subtext, .sign-up-button1 {
+            display: flex;
+        }
+
+        .title {
+            color: #F9FAF8;
+            font-size: 48px;
+            font-weight:bolder;
+        }
+
+        .sign-up-button1 {
+            border: none; /*the first button has no border so I had to specify this..*/
+            max-width: 100px; /* without this, the button is stretched for some reason */
+        }
+
+    .banner {
+    width: 420px;
+    height: 220px ;
+    }
+
+.section2 { 
+    margin-bottom: 7%;
+}
+    .body2 {
+    background-color: #ffffff;
+    }
+    .information-header {
+        color:#1f2937;
+        font-weight: bolder;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+    .information {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .info1, .info2, .info3, .info4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .image-info1, .image-info2, .image-info3, .image-info4 {
+        border-style: solid;
+        border-color:#3882f6;
+        border-width: 2.2px;
+        border-radius: 10px;
+        width: 125px;
+        height:125px;
+    }
+    .content-info1, .content-info2, content-info3, content-info4 {
+        width: 130px;
+        margin-top: 5%;
+    }
+.section3 {
+    background-color:#e5e7eb;
+}
+
+    .body3 {
+    }
+
+    .quote {
+        display: flex;
+        font-size: 36px;
+        font-style: italic;
+        color: #1f2937;
+        margin-top: 10%;
+    }
+
+    .person {
+        display: flex;
+        justify-content: flex-end;
+        font-size:large;
+        font-weight:bolder;
+        margin-bottom: 10%;
+    }
+
+.section4 {
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+    .body4 {
+        background-color: #3882f6;
+        display: flex;
+        padding: 50px;
+        border-radius: 8px;
+    }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            flex: 1; /*pushes the button to the right side*/
+            margin-left: 5%;
+        }
+            .header2 {
+                color: #ffffff;
+                font-weight: bolder;
+            }
+            .subtext2 {
+                color: #afc5eb;
+            }
+        .sign-up-button2 {
+            border-color: #ffffff; 
+            border-style: solid;
+            margin-right: 5%;
+        }
+
+.footer {
+    background-color: #1f2937;
+    color:#aaaeb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .copyright {
+        margin: 2%;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color:#3882f6;
+    color: #ffffff;
+    border-radius: 5px; /*curved edges*/
+    padding:5px 25px;
+}
